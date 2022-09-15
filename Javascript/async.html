@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript async / await</h2>
+<p id="demo"></p>
+<script src="async.js"></script>
+<script>
+myFunction().then(
+  function(value){
+    myDisplayer(value);
+},
+  function(error){
+    myDisplayer(error);
+}
+);
+</script>
+</body>
+</html>
